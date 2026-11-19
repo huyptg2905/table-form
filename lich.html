@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tháng 10 - October</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .khung-lich {
+            width: 630px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h2 {
+            color: blue;
+            margin-bottom: 12px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /* Gộp đường viền */
+        }
+
+        /* Hàng thứ tiếng Việt: C.Nhật -> T.Bảy */
+        .thu-vi th {
+            color: white;
+            background-color: orange;
+            padding: 8px 4px;
+            border: 2px solid white;
+            font-size: 16px;
+        }
+
+        .thu-vi .cn {
+            background-color: red;
+        }
+
+        .thu-vi .t7 {
+            background-color: blue;
+        }
+
+        /* Hàng thứ tiếng Anh: Sun -> Sat */
+        .thu-en th {
+            padding: 6px 4px;
+            font-weight: normal;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .thu-en .cn {
+            color: red;
+        }
+
+        .thu-en .t7 {
+            color: blue;
+        }
+
+        /* Các ô ngày */
+        td {
+            border: 1px solid #888;
+            width: 90px;
+            height: 55px;
+            font-size: 22px;
+            vertical-align: middle;
+        }
+
+        /* Số âm lịch nhỏ ở dưới */
+        td sub {
+            font-size: 12px;
+            color: #222;
+            margin-left: 2px;
+        }
+
+        /* Màu chữ ngày Chủ nhật & Thứ Bảy */
+        .cn {
+            color: red;
+        }
+
+        .t7 {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="khung-lich">
+        <h2>Tháng 10 - October</h2>
+
+        <table border="1" cellspacing="0" cellpadding="0">
+            <!-- Dòng tiêu đề thứ tiếng Việt -->
+            <tr class="thu-vi">
+                <th class="cn">C.Nhật</th>
+                <th>T.Hai</th>
+                <th>T.Ba</th>
+                <th>T.Tư</th>
+                <th>T.Năm</th>
+                <th>T.Sáu</th>
+                <th class="t7">T.Bảy</th>
+            </tr>
+
+            <!-- Dòng tiêu đề thứ tiếng Anh -->
+            <tr class="thu-en">
+                <th class="cn">Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th class="t7">Sat</th>
+            </tr>
+
+            <!-- Tuần 1: 4 ô trống đầu tuần, bắt đầu từ Thứ Năm (ngày 1) -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1<sub>13</sub></td>
+                <td>2<sub>14</sub></td>
+                <td class="t7">3<sub>15</sub></td>
+            </tr>
+
+            <!-- Tuần 2 -->
+            <tr>
+                <td class="cn">4<sub>16</sub></td>
+                <td>5<sub>17</sub></td>
+                <td>6<sub>18</sub></td>
+                <td>7<sub>19</sub></td>
+                <td>8<sub>20</sub></td>
+                <td>9<sub>21</sub></td>
+                <td class="t7">10<sub>22</sub></td>
+            </tr>
+
+            <!-- Tuần 3 -->
+            <tr>
+                <td class="cn">11<sub>23</sub></td>
+                <td>12<sub>24</sub></td>
+                <td>13<sub>25</sub></td>
+                <td>14<sub>26</sub></td>
+                <td>15<sub>27</sub></td>
+                <td>16<sub>28</sub></td>
+                <td class="t7">17<sub>29</sub></td>
+            </tr>
+
+            <!-- Tuần 4 -->
+            <tr>
+                <td class="cn">18<sub>1.9</sub></td>
+                <td>19<sub>2</sub></td>
+                <td>20<sub>3</sub></td>
+                <td>21<sub>4</sub></td>
+                <td>22<sub>5</sub></td>
+                <td>23<sub>6</sub></td>
+                <td class="t7">24<sub>7</sub></td>
+            </tr>
+
+            <!-- Tuần 5 -->
+            <tr>
+                <td class="cn">25<sub>8</sub></td>
+                <td>26<sub>9</sub></td>
+                <td>27<sub>10</sub></td>
+                <td>28<sub>11</sub></td>
+                <td>29<sub>12</sub></td>
+                <td>30<sub>13</sub></td>
+                <td class="t7">31<sub>14</sub></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

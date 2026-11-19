@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cờ 8x8</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            /* Gộp viền các ô cho gọn */
+            text-align: center;
+            /* Căn giữa chữ/số */
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        /* Hàng tiêu đề và cột tiêu đề (màu vàng cam) */
+        th {
+            background-color: #f4b400;
+            color: black;
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Các ô bên trong bàn cờ */
+        td {
+            width: 50px;
+            height: 50px;
+        }
+
+        /* Màu ô trắng và ô đen */
+        .trang {
+            background-color: white;
+        }
+
+        .den {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Thuộc tính cơ bản của table: border, cellspacing, cellpadding -->
+    <table border="1" cellspacing="0" cellpadding="0">
+        <!-- Hàng tiêu đề cột (1 -> 8) -->
+        <tr>
+            <th></th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+
+        <!-- Hàng A: Trắng - Đen xen kẽ -->
+        <tr>
+            <th>A</th>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+        </tr>
+
+        <!-- Hàng B: Đen - Trắng xen kẽ -->
+        <tr>
+            <th>B</th>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+        </tr>
+
+        <!-- Hàng C -->
+        <tr>
+            <th>C</th>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+        </tr>
+
+        <!-- Hàng D -->
+        <tr>
+            <th>D</th>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+        </tr>
+
+        <!-- Hàng E -->
+        <tr>
+            <th>E</th>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+        </tr>
+
+        <!-- Hàng F -->
+        <tr>
+            <th>F</th>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="den" style="background-color: black;"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+        </tr>
+
+        <!-- Hàng G -->
+        <tr>
+            <th>G</th>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+        </tr>
+
+        <!-- Hàng H -->
+        <tr>
+            <th>H</th>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+            <td class="den"></td>
+            <td class="trang"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
